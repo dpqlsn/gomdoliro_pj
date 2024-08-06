@@ -21,13 +21,12 @@ body {
     background-color: #FFFFFF;
     gap: 30px;
 }
-.login{
-    display: flex;
-    justify-content: center;
+.signup{
+    align-items: right;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: bold;
-    color: #9747FF;
-    font-size: 40px;
+    color: #000;
+    font-size: 24px;
     padding-bottom: 5%;
 }
 .space{
@@ -80,7 +79,7 @@ input[type="password"]{
     font-family: inherit;
     border: 1px solid #fff;
 }
-[value="로그인"]{
+[value="회원가입"]{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -95,14 +94,14 @@ input[type="password"]{
     outline: auto;
     cursor: pointer;
 }
-[value="로그인"]:hover{
+[value="회원가입"]:hover{
     background-color: #6d3fa8;
     outline: none;
 }
-[value="회원가입하기"]:hover{
+[value="로그인하기"]:hover{
     color: #6d3fa8;
 }
-[value="회원가입하기"]{
+[value="로그인하기"]{
     display: flex;
     font-family: "Noto Sans KR", sans-serif;
     color: #9747FF;
@@ -113,4 +112,10 @@ input[type="password"]{
 }
 input:focus{
     outline: none;
+}
+.special{
+    color: #000;
+}
+span{
+    color: #9747FF;
 }
